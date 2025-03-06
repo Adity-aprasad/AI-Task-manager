@@ -1,81 +1,93 @@
-# Real-Time Task Management
+# 🚀 AI Task Manager
 
-## Overview
+AI Task Manager is an intelligent task management application designed to help users efficiently track their projects and tasks. With AI-driven assistance, the application provides smart solutions and suggestions to optimize workflow.
 
-The **Real-Time Task Management** system allows users to efficiently manage tasks, assign them to specific users, track their progress, and collaborate in real-time. The system supports features like task creation, updates, real-time notifications, and more.
+## 🌟 Features
 
-## Features
+- ✅ **Task Management** – Add, update, and delete tasks with ease.
+- 📊 **Project Tracking** – Keep track of project statuses and progress.
+- 🤖 **AI Assistance** – Get intelligent suggestions and solutions based on your tasks.
+- 🔒 **User Authentication** – Secure login using JWT.
 
-- **Task Creation & Management:** Create tasks with titles, descriptions, due dates, and priorities.
-- **Real-Time Updates:** Tasks update in real-time, reflecting any changes made by users.
-- **User Assignment:** Assign tasks to specific team members.
-- **Task Progress Tracking:** Track the status of each task (e.g., To Do, In Progress, Done).
-- **Notification System:** Receive real-time notifications for task updates.
+---
 
-## Installation
+## 🛠 Technologies Used
 
-To set up the project locally, follow these steps:
+| **Technology** | **Purpose** |
+|--------------|------------|
+| 🏗 **Go (Golang)** | Backend development |
+| 🎨 **Next.js** | Frontend development |
+| 🗄 **MongoDB** | Database for storing tasks and projects |
+| 🔐 **JWT** | Secure authentication |
 
-### Prerequisites
+---
 
-- [Node.js](https://nodejs.org/en/) (>= 14.0)
-- [MongoDB](https://www.mongodb.com/) (or MongoDB Atlas for cloud hosting)
-- [Socket.IO](https://socket.io/) for real-time communication.
+## 📥 Installation
 
-### Steps
+Follow these steps to set up AI Task Manager locally:
 
-1. Clone the repository:
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Adity-aprasad/AI-Task-manager.git
+cd AI-Task-manager/real-time-task-management-main/pl
+```
 
-   ```bash
-   git clone https://github.com/Adity-aprasad/AI-Task-manager.git
-   cd AI-Task-manager
-Install dependencies:
+### 2️⃣ Set Up the Backend
+```bash
+cd backend
+go mod tidy
+```
 
-bash
-Copy
-Edit
+### 3️⃣ Set Up the Frontend
+```bash
+cd frontend
 npm install
-Set up MongoDB (either locally or using MongoDB Atlas).
+```
 
-Configure environment variables (e.g., database connection, API keys) in .env file.
+### 4️⃣ Configure the Database
+Ensure you have MongoDB installed and running. Update the connection string in the backend configuration.
 
-Start the server:
+### 5️⃣ Run the Application
+#### Start the Backend Server
+```bash
+go run main.go
+```
+#### Start the Frontend Server
+```bash
+npm run dev
+```
 
-bash
-Copy
-Edit
-npm start
-Access the application by navigating to http://localhost:3000.
+### 6️⃣ Access the Application
+Open your browser and go to 👉 [http://localhost:3000](http://localhost:3000) to start using AI Task Manager!
 
-Usage
-Creating a Task: Navigate to the dashboard, click the "Create Task" button, and fill in the required information.
-Assigning a Task: After task creation, you can assign tasks to specific users.
-Updating Task Status: Users can update task status as they work on them.
-Real-Time Notifications: Whenever a task is updated, notifications are sent to relevant users.
-Technologies Used
-Backend: Node.js, Express.js
-Database: MongoDB
-Real-Time Communication: Socket.IO
-Frontend: HTML, CSS, JavaScript (React.js, if applicable)
-Authentication: JWT (if implemented)
-Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+---
 
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Commit your changes (git commit -am 'Add feature').
-Push to the branch (git push origin feature-name).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🎯 Usage
 
-vbnet
-Copy
-Edit
+1️⃣ **Login** – Securely log in with your credentials.
 
-This template covers the basics like project overview, features, setup instructions, and usage. Adjust the content based on what is actually in your project. Let me know if you'd like further customization!
+2️⃣ **Manage Tasks** – Add, update, and track project progress.
 
+3️⃣ **AI Suggestions** – Utilize AI-generated recommendations for your tasks.
 
+---
 
+## 🤝 Contributing
 
+Contributions are welcome! Follow these steps to contribute:
 
+1. **Fork** the repository.
+2. **Create a new branch**: `git checkout -b feature-branch`
+3. **Make your changes** and commit them: `git commit -m 'Add new feature'`
+4. **Push** to the branch: `git push origin feature-branch`
+5. **Create a Pull Request**
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+💡 *Empower your productivity with AI Task Manager!* 🚀
